@@ -23,7 +23,7 @@
       "@/*": ["src/*"]
     },
     "types": ["node"],
-    "composite": true  // Added to support --build
+    "composite": true
   },
   "exclude": ["node_modules"]
 }
