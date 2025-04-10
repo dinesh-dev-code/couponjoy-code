@@ -22,7 +22,8 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": ["node"]
+    "types": ["node"],
+    "composite": true  // Added to support --build
   },
   "exclude": ["node_modules"]
 }
